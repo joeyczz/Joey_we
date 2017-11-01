@@ -1,0 +1,21 @@
+/**index.wxss**/
+.home-body {
+	width: 100%;
+}
+
+.type-list-item {
+	margin: 20rpx;
+	background-color: #FFFFFF;
+	border-radius: 4rpx;
+	overflow: hidden;
+}
+
+.type-list-item-body {
+	padding: 30rpx;
+	display: flex;
+	align-items: center;
+}
+
+.type-list-text {
+	flex: 1;
+}

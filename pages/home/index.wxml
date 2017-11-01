@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="home-body">
+    <view class="type-list">  
+      <block wx:for-items="{{list}}" wx:key="{{item.id}}">
+        <view class="type-list-item">
+          <view id="{{item.id}}" class="type-list-item-body" bindtap="bindViewTap">
+            <view class="type-list-text">{{item.name}}</view>
+          </view>
+        </view>
+      </block>
+    </view>
+  </view>
+</view>
